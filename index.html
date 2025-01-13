@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithms Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sorting Algorithms Visualizer</h1>
+    <div id="comparison-count" style="font-size: 18px; margin-bottom: 20px;">Comparisons: 0</div>
+
+    <div id="array-container"></div>
+    <div class="buttons">
+        <button onclick="generateArray()">Generate New Array</button>
+        <button onclick="bubbleSort()">Bubble Sort</button>
+        <button onclick="mergeSort()">Merge Sort</button>
+        <button onclick="quickSort()">Quick Sort</button>
+    </div>
+    
+    <div id="complexity-info" style="display: none;">
+        <h2>Complexity Information</h2>
+        <ul id="complexity-text" class="complexity-list"></ul>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
